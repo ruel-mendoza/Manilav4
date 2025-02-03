@@ -1,0 +1,28 @@
+.task-list .task-item{
+	display:block;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding: 6px 10px;
+}
+
+.task-list .task-item.task-item-active{
+	background-color:#dff0d8;
+	border-color:#cae6be;
+	border-left:4px solid #cae6be;
+	padding: 6px 4px;
+	font-weight:600;
+}
+fieldset.req {
+    position: relative;
+    right: 0px;
+}
+fieldset.req:before{
+	content: '(Required)';
+    top: -25px;
+    left: 60px;
+    color: red;
+    font-size: 12px;
+    line-height: 13px;
+    position: absolute;	
+}
+	

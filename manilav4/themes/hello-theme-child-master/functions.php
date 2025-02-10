@@ -119,7 +119,7 @@ include_once('includes/team_performance.php');
 
 // DISABLE ELEMENTOR METADATA
 add_filter( "hello_elementor_description_meta_tag", "__return_false" );
-
+// REDIRECT USER AFTER LOGOUT
 add_action('wp_logout','auto_redirect_after_logout');
 
 function auto_redirect_after_logout(){

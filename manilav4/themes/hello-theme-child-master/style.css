@@ -2,7 +2,7 @@
 Theme Name: Hello Elementor Child
 Theme URI: https://github.com/elementor/hello-theme/
 Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
-Author: Elementor Team
+Author: Wordpress Developer Team
 Author URI: https://elementor.com/
 Template: hello-elementor
 Version: 1.0.1
@@ -430,11 +430,11 @@ label.left{
     color:#1eb087!important;
 }
 
-#gform_15 .gfield input{
+/*#gform_15 .gfield input{
 
-  /*color: #fff!important;*/
+  color: #fff!important;
 
-}
+}*/
 
 .elementor-widget-alert{
   display: none;
